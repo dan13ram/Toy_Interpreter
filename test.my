@@ -1,0 +1,26 @@
+n := 7  
+n := ( n + 1 ) ;
+print n ; print " is the value of n." ; println ;
+
+while n > 0 do
+        if 0 > 5 then
+                print n ; 
+        else
+                m := n ;
+                while m > 0 do
+                        print "*" ; 
+                        m := ( m - 1 ) ;
+                done ;
+                m := ( 8 - n ) ;
+                while m > 0 do
+                        print "*" ;
+                        m := ( m - 1 ) ;
+                done ;
+        fi ; 
+        n := ( n - 1 ) ;
+        println ;
+done;
+
+print "outside " ;
+println ;
+
